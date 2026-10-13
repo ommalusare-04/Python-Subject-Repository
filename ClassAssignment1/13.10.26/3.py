@@ -1,0 +1,7 @@
+f = open(r"C:\Users\OM\Desktop\PythonRepo\ClassAssignment1\13.10.26\myfile.txt", "r")
+sentence = f.read()
+li = sentence.split()
+longest = max(li, key=len)
+print("List of words:", li)
+print("Longest word:", longest)
+f.close()
