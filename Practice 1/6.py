@@ -4,4 +4,4 @@ for i in range(n):
     item=input("enter the item:")
     li.append(item)
 print(li)
-print(list(reversed(li)))
+print(list(reversed(li)))# reversed() used to reverse the string

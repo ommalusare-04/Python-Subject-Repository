@@ -4,7 +4,7 @@ for i in range(1,n+1):
         if j>=n-i+1 and j<=n+i-1:
             if i%2==0:
                 print("@",end="")
-            if i%2!=0:
+            else:
                 print("*",end="")
         else:
             print(" ",end="")
